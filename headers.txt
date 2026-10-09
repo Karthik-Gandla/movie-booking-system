@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 08 Oct 2026 04:04:10 GMT
+ETag: W/"4ba-1a119aed319"
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1210
+Date: Thu, 08 Oct 2026 04:13:00 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

@@ -1,0 +1,16 @@
+{
+  "name": "mern-movie-ticket-booking",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Movie Ticket Booking Application",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "node run-dev.js",
+    "start": "npm --prefix backend start",
+    "seed": "npm --prefix backend run seed"
+  },
+  "keywords": ["mern", "movie-ticket-booking", "react", "express", "mongodb", "node"],
+  "author": "Antigravity",
+  "license": "MIT"
+}

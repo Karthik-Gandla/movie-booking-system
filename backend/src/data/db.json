@@ -1,0 +1,4492 @@
+{
+  "users": [
+    {
+      "_id": "661000000000000000000001",
+      "name": "John Doe",
+      "email": "user@cinema.com",
+      "password": "$2a$10$dNypre9TMT/OJwK6qkgWaOyg8kvGgxoQprPB.O4iQqSAvDRGqDQye",
+      "role": "user",
+      "phone": "+1 (555) 234-5678",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "_id": "661000000000000000000002",
+      "name": "Cinema Admin",
+      "email": "admin@cinema.com",
+      "password": "$2a$10$dNypre9TMT/OJwK6qkgWaOd6sVaMmHtecnhRUnObcSFZ8IVUdp1Cy",
+      "role": "admin",
+      "phone": "+1 (555) 987-6543",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=150&q=80"
+    }
+  ],
+  "movies": [
+    {
+      "_id": "661000000000000000000011",
+      "title": "Dune: Part Two",
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he endeavors to prevent a terrible future only he can foresee.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5200nd.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=Way9Dexny3w",
+      "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Action"
+      ],
+      "duration": 166,
+      "language": "English",
+      "rating": 8.8,
+      "votesCount": 42100,
+      "certificate": "PG-13",
+      "releaseDate": "2024-03-01T00:00:00.000Z",
+      "status": "now_showing",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem",
+        "Austin Butler"
+      ]
+    },
+    {
+      "_id": "661000000000000000000012",
+      "title": "Oppenheimer",
+      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II, exploring the deep moral dilemma and geopolitical upheaval of the dawn of the nuclear era.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/fm6K9vYI7vdEN39Ha3AjDqXMrrQ.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "duration": 180,
+      "language": "English",
+      "rating": 8.9,
+      "votesCount": 56300,
+      "certificate": "R",
+      "releaseDate": "2023-07-21T00:00:00.000Z",
+      "status": "now_showing",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr.",
+        "Florence Pugh"
+      ]
+    },
+    {
+      "_id": "661000000000000000000013",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=cqGjhVJWtEg",
+      "genres": [
+        "Animation",
+        "Action",
+        "Sci-Fi"
+      ],
+      "duration": 140,
+      "language": "English",
+      "rating": 8.7,
+      "votesCount": 38900,
+      "certificate": "PG",
+      "releaseDate": "2023-06-02T00:00:00.000Z",
+      "status": "now_showing",
+      "director": "Joaquim Dos Santos, Kemp Powers",
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac",
+        "Daniel Kaluuya"
+      ]
+    },
+    {
+      "_id": "661000000000000000000014",
+      "title": "Interstellar",
+      "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/rAiYTrKGqDCRIIqo664sY9XZIvQ.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Adventure"
+      ],
+      "duration": 169,
+      "language": "English",
+      "rating": 8.7,
+      "votesCount": 68000,
+      "certificate": "PG-13",
+      "releaseDate": "2014-11-07T00:00:00.000Z",
+      "status": "now_showing",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ]
+    },
+    {
+      "_id": "661000000000000000000015",
+      "title": "Gladiator II",
+      "description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius must enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/euYIwmwkmz95mnEx7vA49496i.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=4rgYUipGJNo",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "duration": 150,
+      "language": "English",
+      "rating": 8.4,
+      "votesCount": 15200,
+      "certificate": "R",
+      "releaseDate": "2024-11-22T00:00:00.000Z",
+      "status": "coming_soon",
+      "director": "Ridley Scott",
+      "cast": [
+        "Paul Mescal",
+        "Pedro Pascal",
+        "Denzel Washington",
+        "Connie Nielsen"
+      ]
+    },
+    {
+      "_id": "661000000000000000000016",
+      "title": "Deadpool & Wolverine",
+      "description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary Deadpool behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up with an even more reluctant Wolverine.",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+      "backdropUrl": "https://image.tmdb.org/t/p/original/yDHYTfA3R0jFYba16jBB1jv8vgC.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=73_1biulkYk",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "duration": 128,
+      "language": "English",
+      "rating": 8.2,
+      "votesCount": 29500,
+      "certificate": "R",
+      "releaseDate": "2024-07-26T00:00:00.000Z",
+      "status": "now_showing",
+      "director": "Shawn Levy",
+      "cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin",
+        "Matthew Macfadyen"
+      ]
+    },
+    {
+      "_id": "m_1a119c2f9d7",
+      "votesCount": 0,
+      "rating": 8.5,
+      "status": "now_showing",
+      "createdAt": "2026-10-08T04:26:10.775Z",
+      "title": "Spider-Man : Brand New Day",
+      "description": "Spider-Man: Brand New Day follows an adult Peter Parker living in total anonymity, protecting a New York that no longer remembers him while coping with the isolation and strain of being a full‑time hero. The film offers a grounded, emotionally rich story, mixing gritty action with personal stakes, unpredictable powers, and standout performances from Tom Holland and Jon Bernthal. Praised as one of the best Spider-Man films yet, it's a must‑watch for fans.\n\n",
+      "posterUrl": "https://th.bing.com/th/id/OSK.pRtbyBeiIe-v1wxqXUSGIMaCTEzGwQP7UcGkr-ZySYE?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "backdropUrl": "https://th.bing.com/th/id/OSK.QOm2At82mA9GLWNxyrjfYXh77KoxUoVbiotqaKRBJVw?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "trailerUrl": "",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "duration": 145,
+      "language": "English",
+      "certificate": "PG-13",
+      "releaseDate": "2026-10-08",
+      "director": "RAJESH CHOWKE",
+      "cast": [
+        "Tom Holland",
+        "Zandaya"
+      ]
+    },
+    {
+      "_id": "m_1a119e20af7",
+      "votesCount": 0,
+      "rating": 8.5,
+      "status": "now_showing",
+      "createdAt": "2026-10-08T05:00:06.775Z",
+      "title": "Bahubali - The Beginning (RE-RELEASE)",
+      "description": "Baahubali: The Beginning is a 2015 Indian epic action film co-written and directed by S. S. Rajamouli, and produced by Shobu Yarlagadda and Prasad Devineni under Arka Media Works. Produced in the Telugu film industry, the film was shot in both Telugu and Tamil languages. It features Prabhas in a dual role alongside Rana Daggubati, Anushka, Tamannaah Bhatia, Ramya Krishnan, Sathyaraj, and Nassar.",
+      "posterUrl": "https://tse1.mm.bing.net/th/id/OIP.Zv8EB7mhjPY_W03p3rXoUwHaK-?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "backdropUrl": "https://th.bing.com/th/id/OIP.xGiYBsqGMEk9jkhiSMj4wgHaEK?w=208&h=117&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "trailerUrl": "https://youtu.be/3NQRhE772b0?si=ocvygUfAyx7mVnmd",
+      "genres": [
+        "Action",
+        "Drama",
+        ""
+      ],
+      "duration": 137,
+      "language": "English",
+      "certificate": "PG-13",
+      "releaseDate": "2026-10-08",
+      "director": "S.S.RAJAMOULI",
+      "cast": [
+        "Prabhas",
+        "Rana",
+        "Anushka"
+      ]
+    }
+  ],
+  "theaters": [
+    {
+      "_id": "661000000000000000000021",
+      "name": "AMC Empire 25 IMAX",
+      "chain": "AMC Theatres",
+      "city": "New York",
+      "address": "234 W 42nd St, Times Square, New York, NY 10036",
+      "screens": [
+        {
+          "screenNumber": 1,
+          "name": "Screen 1 - IMAX Laser",
+          "format": "IMAX 3D / Laser",
+          "totalSeats": 80,
+          "seatLayout": {
+            "rows": 8,
+            "columns": 10,
+            "rowLabels": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "seatCategories": [
+              {
+                "name": "Standard",
+                "rows": [
+                  "A",
+                  "B"
+                ],
+                "price": 14
+              },
+              {
+                "name": "Premium",
+                "rows": [
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "price": 18
+              },
+              {
+                "name": "VIP",
+                "rows": [
+                  "G",
+                  "H"
+                ],
+                "price": 24
+              }
+            ]
+          }
+        },
+        {
+          "screenNumber": 2,
+          "name": "Screen 2 - Dolby Cinema",
+          "format": "Dolby Atmos Atmos",
+          "totalSeats": 80,
+          "seatLayout": {
+            "rows": 8,
+            "columns": 10,
+            "rowLabels": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "seatCategories": [
+              {
+                "name": "Standard",
+                "rows": [
+                  "A",
+                  "B"
+                ],
+                "price": 12
+              },
+              {
+                "name": "Premium",
+                "rows": [
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "price": 16
+              },
+              {
+                "name": "VIP",
+                "rows": [
+                  "G",
+                  "H"
+                ],
+                "price": 22
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_id": "661000000000000000000022",
+      "name": "Regal LA Live 4DX",
+      "chain": "Regal Cinemas",
+      "city": "Los Angeles",
+      "address": "1000 W Olympic Blvd, Los Angeles, CA 90015",
+      "screens": [
+        {
+          "screenNumber": 1,
+          "name": "Screen 1 - 4DX Theater",
+          "format": "4DX Dynamic",
+          "totalSeats": 80,
+          "seatLayout": {
+            "rows": 8,
+            "columns": 10,
+            "rowLabels": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "seatCategories": [
+              {
+                "name": "Standard",
+                "rows": [
+                  "A",
+                  "B"
+                ],
+                "price": 15
+              },
+              {
+                "name": "Premium",
+                "rows": [
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "price": 20
+              },
+              {
+                "name": "VIP",
+                "rows": [
+                  "G",
+                  "H"
+                ],
+                "price": 26
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_id": "661000000000000000000023",
+      "name": "Alamo Drafthouse Cinema",
+      "chain": "Alamo Drafthouse",
+      "city": "Austin",
+      "address": "1120 S Lamar Blvd, Austin, TX 78704",
+      "screens": [
+        {
+          "screenNumber": 1,
+          "name": "The Big Show",
+          "format": "Dolby Atmos 7.1",
+          "totalSeats": 80,
+          "seatLayout": {
+            "rows": 8,
+            "columns": 10,
+            "rowLabels": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "seatCategories": [
+              {
+                "name": "Standard",
+                "rows": [
+                  "A",
+                  "B"
+                ],
+                "price": 13
+              },
+              {
+                "name": "Premium",
+                "rows": [
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "price": 17
+              },
+              {
+                "name": "VIP",
+                "rows": [
+                  "G",
+                  "H"
+                ],
+                "price": 23
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "showtimes": [
+    {
+      "_id": "661000000000000000000020",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000021",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000022",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000023",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000024",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000025",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000026",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000027",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000028",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000029",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002a",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002b",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002c",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002d",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002e",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000002f",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000030",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000031",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000032",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000033",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000034",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000035",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000036",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000037",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000038",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000039",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003a",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003b",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003c",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003d",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003e",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000003f",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000040",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000041",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000042",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000043",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000044",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000045",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000046",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000047",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000048",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000049",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004a",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004b",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004c",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004d",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004e",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000004f",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000050",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000051",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000052",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000053",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000054",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000055",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000056",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000057",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000058",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000059",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005a",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005b",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005c",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005d",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005e",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000005f",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000060",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000061",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000062",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000063",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000064",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000065",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000066",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000067",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000068",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000069",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006a",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006b",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006c",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006d",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006e",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000006f",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000070",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000071",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000072",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000073",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000074",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000075",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000076",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000077",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000078",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000079",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007a",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007b",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007c",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007d",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007e",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000007f",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000080",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000081",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000082",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000083",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000084",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000085",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000086",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000087",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000088",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000089",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008a",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008b",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008c",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008d",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008e",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000008f",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000090",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000091",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000092",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000093",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000094",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000095",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000096",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000097",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-09",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "661000000000000000000098",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "661000000000000000000099",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009a",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009b",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009c",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009d",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009e",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "66100000000000000000009f",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a0",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a1",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a2",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a3",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a4",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a5",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a6",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a7",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a8",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000a9",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000aa",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ab",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ac",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ad",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ae",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000af",
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b0",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b1",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b2",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b3",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b4",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b5",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b6",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b7",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b8",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000b9",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ba",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000bb",
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000bc",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4",
+        "B5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000bd",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000be",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000bf",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "screenNumber": 2,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c0",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c1",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c2",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c3",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000022",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c4",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c5",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c6",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c7",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000023",
+      "screenNumber": 2,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c8",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000c9",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ca",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000cb",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "IMAX Laser 3D",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000cc",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000cd",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000ce",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000cf",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000022",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000d0",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "11:30 AM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000d1",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "02:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000d2",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "06:15 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "C4",
+        "C5",
+        "D6",
+        "D7",
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "_id": "6610000000000000000000d3",
+      "movie": "661000000000000000000016",
+      "theater": "661000000000000000000023",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-10",
+      "time": "09:45 PM",
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "bookedSeats": [
+        "E5",
+        "E6",
+        "F4",
+        "F5"
+      ]
+    },
+    {
+      "_id": "st_1a119bd9eb4",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "661000000000000000000012",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-11",
+      "time": "11:30 PM"
+    },
+    {
+      "_id": "st_1a119cf785d",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "07:30 PM"
+    },
+    {
+      "_id": "st_1a119cfb95f",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "12:30 PM"
+    },
+    {
+      "_id": "st_1a119cff464",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "661000000000000000000013",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "3:30 PM"
+    },
+    {
+      "_id": "st_1a119d05c41",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "m_1a119c2f9d7",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "6:30 PM"
+    },
+    {
+      "_id": "st_1a119d08e46",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "m_1a119c2f9d7",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "3:30 PM"
+    },
+    {
+      "_id": "st_1a119d0b8d9",
+      "bookedSeats": [
+        "C5"
+      ],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "m_1a119c2f9d7",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "12:30 PM"
+    },
+    {
+      "_id": "st_1a119d0e5b6",
+      "bookedSeats": [],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "m_1a119c2f9d7",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "12:30 PM"
+    },
+    {
+      "_id": "st_1a119e33220",
+      "bookedSeats": [
+        "D4",
+        "D5"
+      ],
+      "ticketPrices": {
+        "Standard": 12,
+        "Premium": 16,
+        "VIP": 22
+      },
+      "movie": "m_1a119e20af7",
+      "theater": "661000000000000000000021",
+      "screenNumber": 1,
+      "screenFormat": "Dolby Atmos",
+      "date": "2026-10-08",
+      "time": "07:30 PM"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "661000000000000000000081",
+      "bookingReference": "CNP-78291",
+      "user": "661000000000000000000001",
+      "movie": "661000000000000000000011",
+      "theater": "661000000000000000000021",
+      "showtime": "661000000000000000000020",
+      "seats": [
+        {
+          "seatNumber": "D4",
+          "tier": "Premium",
+          "price": 16
+        },
+        {
+          "seatNumber": "D5",
+          "tier": "Premium",
+          "price": 16
+        }
+      ],
+      "subtotal": 32,
+      "convenienceFee": 2.5,
+      "tax": 2.76,
+      "discount": 0,
+      "totalAmount": 37.26,
+      "paymentMethod": "Credit Card (ending 4242)",
+      "paymentStatus": "completed",
+      "ticketQrCode": "CNP-78291-DUNE2-D4-D5",
+      "createdAt": "2026-10-08T03:47:05.224Z"
+    },
+    {
+      "_id": "b_1a119bad526",
+      "bookingReference": "CNP-68839",
+      "paymentStatus": "completed",
+      "createdAt": "2026-10-08T04:17:17.094Z",
+      "user": "661000000000000000000001",
+      "movie": "661000000000000000000014",
+      "theater": "661000000000000000000021",
+      "showtime": "6610000000000000000000bc",
+      "seats": [
+        {
+          "seatNumber": "B5",
+          "tier": "Standard",
+          "price": 12
+        }
+      ],
+      "subtotal": 12,
+      "convenienceFee": 2.5,
+      "discount": 2.4,
+      "tax": 0.77,
+      "totalAmount": 12.87,
+      "paymentMethod": "Credit Card",
+      "ticketQrCode": "QR-O0665W6"
+    },
+    {
+      "_id": "b_1a119d1f1e7",
+      "bookingReference": "CNP-55253",
+      "paymentStatus": "completed",
+      "createdAt": "2026-10-08T04:42:31.783Z",
+      "user": "661000000000000000000002",
+      "movie": "m_1a119c2f9d7",
+      "theater": "661000000000000000000021",
+      "showtime": "st_1a119d0b8d9",
+      "seats": [
+        {
+          "seatNumber": "C5",
+          "tier": "Premium",
+          "price": 16
+        }
+      ],
+      "subtotal": 16,
+      "convenienceFee": 2.5,
+      "discount": 3.2,
+      "tax": 1.02,
+      "totalAmount": 16.32,
+      "paymentMethod": "PayPal",
+      "ticketQrCode": "QR-Y9S3NFH"
+    },
+    {
+      "_id": "b_1a119e3763b",
+      "bookingReference": "CNP-97998",
+      "paymentStatus": "completed",
+      "createdAt": "2026-10-08T05:01:39.771Z",
+      "user": "661000000000000000000002",
+      "movie": "m_1a119e20af7",
+      "theater": "661000000000000000000021",
+      "showtime": "st_1a119e33220",
+      "seats": [
+        {
+          "seatNumber": "D4",
+          "tier": "Premium",
+          "price": 16
+        },
+        {
+          "seatNumber": "D5",
+          "tier": "Premium",
+          "price": 16
+        }
+      ],
+      "subtotal": 32,
+      "convenienceFee": 2.5,
+      "discount": 0,
+      "tax": 2.56,
+      "totalAmount": 37.06,
+      "paymentMethod": "Credit Card",
+      "ticketQrCode": "QR-U7TR6AS"
+    }
+  ]
+}
